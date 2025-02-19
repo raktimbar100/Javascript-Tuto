@@ -45,3 +45,21 @@ console.log(typeof a);
 
 let emo=Symbol("Hi How are you?:");
 console.log(typeof emo);
+//Objects declaration
+const Student={
+    NAME:"RAKTIM",
+    ROLL:21,
+    MARKS:"GOOD",
+    ISPASS:true
+};
+console.log(Student);
+console.log(Student["NAME"]);
+console.log(Student["ROLL"]);
+console.log(Student["MARKS"]);
+console.log(Student["ISPASS"]);
+console.log(Student.NAME);
+console.log(Student.ROLL);
+console.log(Student.MARKS);
+console.log(Student.ISPASS);
+Student.NAME="SHYAM";
+console.log(Student.NAME);
