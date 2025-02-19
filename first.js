@@ -22,3 +22,26 @@
 salary=400;
 console.log(salary);//it can be done because const,let both are blocked scope
 
+//primitive datatypes
+//number,string,boolean,undefined,null,bigint,Symbol
+
+let age=20;
+console.log(typeof age);
+
+let fullname='Raktim';
+console.log(typeof fullname);
+
+let isFollow=true;
+console.log(typeof isFollow);
+
+let salary1=BigInt(20000);
+console.log(typeof salary1);
+
+let refer=null;
+console.log(typeof refer);
+
+let a;
+console.log(typeof a);
+
+let emo=Symbol("Hi How are you?:");
+console.log(typeof emo);
