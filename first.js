@@ -100,3 +100,63 @@ let g=12;
 let k='12';
 console.log(g==k); //here '12' will be treated as a number
 console.log(g===k);//here the object will be samely treated as string.
+
+//Logical operators
+var marks=90;
+let subject='English';
+if(subject==='English' && marks>=85){
+    console.log("GRADE A ");
+}else{
+    console.log("Lower Grade")
+}
+
+let p1=true;
+let p2=false;
+console.log(p1==true && p2==true);
+console.log(p1==true && p2==false);
+console.log(p1==false && p2==true);
+console.log(p1==false && p2==false);
+
+console.log(p1==true || p2==true);
+console.log(p1==true || p2==false);
+console.log(p1==false || p2==true);
+console.log(p1==false || p2==false);
+
+console.log(!(p1==false || p2==false));
+
+//Ternary Operator
+let pr=50;
+let val=pr > 60?"You can buy":"you cant buy";
+console.log(val);
+/*
+Qs1. Get user to input a number using prompt(“Enter a number:
+
+”). Check if the number is
+
+a multiple of 5 or not.
+*/
+let num=prompt("Enter a number ");
+if(num%5===0){
+    console.log("Multiple of 5");
+}else{
+    console.log("Not multiple of 5");
+}
+
+let ymarks=56;
+if(ymarks>=80 && ymarks<=100){
+    console.log("A");
+}
+else if(ymarks>=70 && ymarks<=79){
+    console.log("B");
+}
+else if(ymarks>=60 && ymarks<=69){
+    console.log("C");
+}
+if(ymarks>=50 && ymarks<=59){
+    console.log("D");
+}
+else{
+    console.log("F");
+}
+
+
