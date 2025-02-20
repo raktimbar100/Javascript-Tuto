@@ -44,3 +44,12 @@ console.log(num);
 console.log(num.slice(1,3));
 console.log(num.splice(2,1,900,789,56));
 console.log(num);
+
+//TASK
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.shift();
+console.log(companies);
+companies.splice(1,1,"Ola");
+console.log(companies);
+companies.push("Amazon");   
+console.log(companies);
