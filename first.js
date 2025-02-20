@@ -63,3 +63,40 @@ console.log(Student.MARKS);
 console.log(Student.ISPASS);
 Student.NAME="SHYAM";
 console.log(Student.NAME);
+//operators in js
+let a1=4;
+let b1=3;
+console.log(a1+b1);
+console.log(a1-b1);
+console.log(a1*b1);
+console.log(a1/b1);
+console.log(a1**b1);
+console.log(a1%b1);
+console.log("a ",a1++);//4
+console.log("a ",++a1);//5->6
+console.log("a ",++b1);//4
+console.log("a ",b1++);//4
+
+//Assignment Operator
+let c1=10;
+c1+=1;//11
+c1*=2;//22
+c1-=1;//21
+c1/=3;//7
+c1%=2;//1
+c1**=4//1
+console.log(c1);
+
+//Operators in js
+let e=2;
+console.log(e==2);
+console.log(e!=2);
+console.log(e>2);
+console.log(e<2);
+console.log(e>=2);
+console.log(e<=2);
+
+let g=12;
+let k='12';
+console.log(g==k); //here '12' will be treated as a number
+console.log(g===k);//here the object will be samely treated as string.
